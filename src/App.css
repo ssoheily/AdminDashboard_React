@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: 10px;
+}
+.link{
+    text-decoration: noen;
+    color: inherit;
+}

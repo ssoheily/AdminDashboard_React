@@ -1,3 +1,4 @@
+ import Home from "./components/home/Home"
  let routes = [
-    {path:"/" , element : <Home></H ome>}
+    {path:"/" , element : <Home></Home>}
  ]

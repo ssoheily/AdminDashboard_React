@@ -21,7 +21,7 @@ export default function Topbar() {
               <div className="topbariconContainer">
                 <SettingsIcon />
               </div>
-              <img src="./../images/npm.png" alt="" />
+              <img src="./../images/npm.png" alt=""  className='topAvatar'/>
             </div>
         </div>
     </div>

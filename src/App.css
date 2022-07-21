@@ -3,11 +3,9 @@
 }
 .container{
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
     margin-top: 10px;
 }
 .link{
-    text-decoration: noen;
+    text-decoration: none;
     color: inherit;
 }

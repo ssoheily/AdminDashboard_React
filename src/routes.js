@@ -7,7 +7,7 @@
     {path:"/" , element : <Home></Home>},
     {path:"/users" , element : <UserList></UserList>},
     {path:"/newuser" , element : <NewUser></NewUser>},
-    {path:"/products" , element : <Products></Products>}
+    {path:"/products" , element : <Products></Products>},
  ]
  export default routes 
 

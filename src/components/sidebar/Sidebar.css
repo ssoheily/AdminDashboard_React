@@ -1,11 +1,13 @@
+/* ///// */
 .sidebar {
     flex: 1;
     height: calc(100vh - 50px);
     /* from viewport ,minus 50px  */
     background-color: rgb(251, 251, 255);
-    position: fixed;
+    /* sticky is same fixed , if it is needed */
+    position: sticky;/* sticky replace fixed  for size */
     top: 50px;
-    /* z-index: 999; */
+    /* z-index: 999; */ 
 
 }
 
@@ -43,6 +45,6 @@
 }
 .sidebarIcon {
   margin-right: 5px;
-  font-size: 5px;
+  font-size: 20px;
 }
 

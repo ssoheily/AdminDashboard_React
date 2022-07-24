@@ -3,9 +3,10 @@
  import Features from "./../../components/features/Features"
  export default function Home() {
    return (
-     <div>
-        <Features></Features>
-     </div>
+        <div className="home">
+          <Features></Features>
+        </div>
+     
    )
  }
  

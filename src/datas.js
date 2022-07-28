@@ -70,8 +70,51 @@ const transactions = [
         date: '1 Feb 2022',
         amount: 123,
         status: 'Approved',
-        img: 'images4.jpg'
+        img: 'images/4.jpg'
     },
 ]
 
-export { xAxisData, newMembers, transactions} 
+let userRows = [
+    {
+        id: 1,
+        username: 'Qadir Yolme',
+        avatar: 'images/1.jpg',
+        status: 'active',
+        transaction: '$129.52',
+        email: 'sam.soheil@gmail.com'
+    },
+    {
+        id: 2,
+        username: 'Amin Saeedi',
+        avatar: 'images/2.jpg',
+        status: 'non-active',
+        transaction: '$110',
+        email: 'sam.soheil@gmail.com'
+    },
+    {
+        id: 3,
+        username: 'Sasan Moq',
+        avatar: 'images/3.jpg',
+        status: 'active',
+        transaction: '$98',
+        email: 'sam.soheil@gmail.com'
+    },
+    {
+        id: 4,
+        username: 'Zahra Agayi',
+        avatar: 'images/4.jpg',
+        status: 'active',
+        transaction: '$0',
+        email: 'sam.soheil@gmail.com'
+    },
+    {
+        id: 5,
+        username: 'Hamze mohammadi',
+        avatar: 'images/4.jpg',
+        status: 'active',
+        transaction: '$55.98',
+        email: 'sam.soheil@gmail.com'
+    }
+]
+
+export { xAxisData, newMembers, transactions ,userRows} 
